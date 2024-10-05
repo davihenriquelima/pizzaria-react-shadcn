@@ -38,7 +38,7 @@ export const products: Product[] = [
         id: 4,
         category: 'bebidas',
         name: 'Antarctica',
-        image: '/images/bebidas/.png',
+        image: '/images/bebidas/antarcticasizes.png',
         sizes: [
             {size:'350ml', price:5.99},
             {size:'1l', price:7.99},
@@ -49,7 +49,7 @@ export const products: Product[] = [
         id: 4,
         category: 'bebidas',
         name: 'Coca-Cola',
-        image: '/images/bebidas/.png',
+        image: '/images/bebidas/cocasizes.png',
         sizes: [
             {size:'350ml', price:6.99},
             {size:'1l', price:8.99},
