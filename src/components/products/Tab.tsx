@@ -40,7 +40,13 @@ export const ProductsTab = async () => {
         <Tabs defaultValue="pizzas">
             <TabsList className="flex">
                 {tabs.map(item => (
-                    <TabsTrigger key={item.value} value={item.value} className="flex-1">{item.title}</TabsTrigger>
+                    <TabsTrigger 
+                        key={item.value} 
+                        value={item.value} 
+                        className="flex-1"
+                    >
+                        {item.title}
+                    </TabsTrigger>
                 ))}
             </TabsList>
             {tabs.map(item => (
