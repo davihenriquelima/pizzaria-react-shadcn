@@ -36,9 +36,9 @@ export const products: Product[] = [
     },
     {
         id: 4,
-        category: 'bebidas',
+        category: 'refrigerantes',
         name: 'Antarctica',
-        image: '/images/bebidas/antarcticasizes.png',
+        image: '/images/refrigerantes/antarcticasizes.png',
         sizes: [
             {size:'350ml', price:5.99},
             {size:'1l', price:7.99},
@@ -47,9 +47,9 @@ export const products: Product[] = [
     },
     {
         id: 4,
-        category: 'bebidas',
+        category: 'refrigerantes',
         name: 'Coca-Cola',
-        image: '/images/bebidas/cocasizes.png',
+        image: '/images/refrigerantes/cocasizes.png',
         sizes: [
             {size:'350ml', price:6.99},
             {size:'1l', price:8.99},

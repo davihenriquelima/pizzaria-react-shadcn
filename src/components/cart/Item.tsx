@@ -13,13 +13,13 @@ export const CartItem = ({item}:Props) => {
             </div>
             <div>
                 <p className="text-md">
-                    {`${item.product.category.toLowerCase().endsWith('s') ? item.product.category.charAt(0).toUpperCase() + item.product.category.slice(1,-1) : item.product.category.charAt(0).toUpperCase() + item.product.category.slice(1)} de ${item.product.name} - ${item.product.size.size}`}
+                    {`${item.product.category.toLowerCase().endsWith('s') ? item.product.category.charAt(0).toUpperCase() + item.product.category.slice(1,-1) : item.product.category.charAt(0).toUpperCase() + item.product.category.slice(1)} ${item.product.name} - ${item.product.size.size.toUpperCase()}`}
                 </p>
                 <p className="text-xs opacity-45">
                     R${item.product.size.price}
                 </p>
             </div>
-            <div>
+            <div className="ml-auto">
                 <CartItemQuantity cartItem={item}/>
             </div>
         </div>

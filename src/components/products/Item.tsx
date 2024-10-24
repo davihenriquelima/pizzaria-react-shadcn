@@ -21,19 +21,26 @@ export const ProductItem = ({item}:Props)=> {
 
     useEffect(()=> {
         const triggersList = tabsRef.current?.querySelectorAll('button')
-        const activeTrigger = () => {
-            if(triggersList) {
-                return Array.from(triggersList).find((button)=> button.getAttribute('aria-selected') === 'true')
+
+        const activeTrigger = () => triggersList ? Array.from(triggersList).find(button => button.getAttribute('aria-selected') === 'true') : null;
+
+        const verifySize = () => {
+            const triggerValue = activeTrigger()?.innerHTML;
+            if (triggerValue) {
+                const foundSize = item.sizes.find(size => size.size === triggerValue);
+                return foundSize ? foundSize : { size: 'default', price: 0 };
             }
-        }
-        console.log(activeTrigger())
-    },[])
+            return { size: '', price: 0 };
+        };
+
+        setSelectedSize(verifySize())
+    }, [item.sizes])
 
     const handleAddButton = ()=> {
 
         const SizedItem:SizedProduct = {
             name: item.name,
-            id: item.id,
+            id: item.id + selectedSize.size,
             category: item.category,
             image: item.image,
             size: selectedSize
@@ -42,7 +49,7 @@ export const ProductItem = ({item}:Props)=> {
         upsertCartItem(SizedItem, 1);
         toast({
             title:'Item adicionado ao carrinho',
-            description: `${item.category.toLowerCase().endsWith('s') ? item.category.charAt(0).toUpperCase() + item.category.slice(1,-1) : item.category.charAt(0).toUpperCase() + item.category.slice(1)} de ${item.name} tamanho ${selectedSize.size}`,
+            description: `${item.category.toLowerCase().endsWith('s') ? item.category.charAt(0).toUpperCase() + item.category.slice(1,-1) : item.category.charAt(0).toUpperCase() + item.category.slice(1)} ${item.name} TAM ${selectedSize.size.toUpperCase()}`,
             action: <ToastAction altText="fechar">Fechar</ToastAction>
         });
     }

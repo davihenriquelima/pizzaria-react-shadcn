@@ -25,9 +25,9 @@ export const ProductsTab = async () => {
             products: products.filter(item => item.category === 'coxinhas')
         },
         {
-            title: 'Bebidas',
-            value: 'bebidas',
-            products: products.filter(item => item.category === 'bebidas')
+            title: 'Refrigerantes',
+            value: 'refrigerantes',
+            products: products.filter(item => item.category === 'refrigerantes')
         },
         {
             title: 'Combos',

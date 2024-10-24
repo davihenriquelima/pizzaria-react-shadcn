@@ -1,7 +1,7 @@
 import { Size } from "./Product";
 
 export type SizedProduct = {
-    id: number,
+    id: string,
     category: string,
     name: string,
     image: string,
