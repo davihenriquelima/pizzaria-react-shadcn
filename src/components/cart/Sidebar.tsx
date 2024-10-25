@@ -4,10 +4,10 @@ import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTr
 import { Button } from "@/components/ui/button";
 import { RocketIcon } from "lucide-react"
 import { Separator } from "@/components/ui/separator";
-import { useCartStore } from "../stores/cart-store";
-import { CartItem } from "./Item";
+import { useCartStore } from "@/stores/cart-store";
+import { CartItem } from "@/components/cart/Item";
 import { useState } from "react";
-import { CheckoutDialog } from "../checkout/Dialog";
+import { CheckoutDialog } from "@/components/checkout/Dialog";
 
 export const CartSidebar = () => {
     const { cart } = useCartStore(state => state);

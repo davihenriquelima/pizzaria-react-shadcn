@@ -1,4 +1,4 @@
-import { Size } from "./Product";
+import { Size } from "@/types/Product";
 
 export type SizedProduct = {
     id: string,

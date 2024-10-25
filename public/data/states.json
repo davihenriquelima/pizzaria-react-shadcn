@@ -1,0 +1,378 @@
+[
+    {
+      "code":"ac",
+      "name": "Acre",
+      "cities": [
+          {"name":"Rio Branco"},
+          {"name":"Cruzeiro do Sul"},
+          {"name":"Sena Madureira"},
+          {"name":"Tarauacá"},
+          {"name":"Feijó"},
+          {"name":"Brasiléia"},
+          {"name":"Senador Guiomard"},
+          {"name":"Plácido de Castro"}
+      ]
+    },
+    {
+      "code":"al",
+      "name": "Alagoas",
+      "cities": [
+          {"name":"Maceió"},
+          {"name":"Arapiraca"},
+          {"name":"Palmeira dos Índios"},
+          {"name":"Rio Largo"},
+          {"name":"Penedo"},
+          {"name":"União dos Palmares"},
+          {"name":"Delmiro Gouveia"},
+          {"name":"Santana do Ipanema"}
+      ]
+    },
+    {
+      "code":"ap",
+      "name": "Amapá",
+      "cities": [
+          {"name":"Macapá"},
+          {"name":"Santana"},
+          {"name":"Laranjal do Jari"},
+          {"name":"Oiapoque"},
+          {"name":"Mazagão"},
+          {"name":"Porto Grande"},
+          {"name":"Tartarugalzinho"}
+      ]
+    },
+    {
+      "code":"am",
+      "name": "Amazonas",
+      "cities": [
+          {"name":"Manaus"},
+          {"name":"Parintins"},
+          {"name":"Itacoatiara"},
+          {"name":"Manacapuru"},
+          {"name":"Coari"},
+          {"name":"Tabatinga"},
+          {"name":"Tefé"},
+          {"name":"Maués"}
+      ]
+    },
+    {
+      "code":"ba",
+      "name": "Bahia",
+      "cities": [
+          {"name":"Salvador"},
+          {"name":"Feira de Santana"},
+          {"name":"Vitória da Conquista"},
+          {"name":"Camaçari"},
+          {"name":"Juazeiro"},
+          {"name":"Ilhéus"},
+          {"name":"Itabuna"},
+          {"name":"Barreiras"}
+      ]
+    },
+    {
+      "code":"ce",
+      "name": "Ceará",
+      "cities": [
+          {"name":"Fortaleza"},
+          {"name":"Caucaia"},
+          {"name":"Juazeiro do Norte"},
+          {"name":"Maracanaú"},
+          {"name":"Sobral"},
+          {"name":"Crato"},
+          {"name":"Iguatu"},
+          {"name":"Quixadá"}
+      ]
+    },
+    {
+      "code":"df",
+      "name": "Distrito Federal",
+      "cities": [
+          {"name":"Brasília"},
+          {"name":"Taguatinga"},
+          {"name":"Ceilândia"},
+          {"name":"Samambaia"},
+          {"name":"Planaltina"},
+          {"name":"Sobradinho"},
+          {"name":"Recanto das Emas"}
+      ]
+    },
+    {
+      "code":"es",
+      "name": "Espírito Santo",
+      "cities": [
+          {"name":"Vitória"},
+          {"name":"Vila Velha"},
+          {"name":"Serra"},
+          {"name":"Cariacica"},
+          {"name":"Linhares"},
+          {"name":"Cachoeiro de Itapemirim"},
+          {"name":"Colatina"},
+          {"name":"Guarapari"}
+      ]
+    },
+    {
+      "code":"go",
+      "name": "Goiás",
+      "cities": [
+          {"name":"Goiânia"},
+          {"name":"Aparecida de Goiânia"},
+          {"name":"Anápolis"},
+          {"name":"Rio Verde"},
+          {"name":"Luziânia"},
+          {"name":"Águas Lindas de Goiás"},
+          {"name":"Valparaíso de Goiás"},
+          {"name":"Trindade"}
+      ]
+    },
+    {
+      "code":"ma",
+      "name": "Maranhão",
+      "cities": [
+          {"name":"São Luís"},
+          {"name":"Imperatriz"},
+          {"name":"Timon"},
+          {"name":"Caxias"},
+          {"name":"São José de Ribamar"},
+          {"name":"Codó"},
+          {"name":"Açailândia"},
+          {"name":"Bacabal"}
+      ]
+    },
+    {
+      "code":"mt",
+      "name": "Mato Grosso",
+      "cities": [
+          {"name":"Cuiabá"},
+          {"name":"Várzea Grande"},
+          {"name":"Rondonópolis"},
+          {"name":"Sinop"},
+          {"name":"Tangará da Serra"},
+          {"name":"Lucas do Rio Verde"},
+          {"name":"Barra do Garças"},
+          {"name":"Cáceres"}
+      ]
+    },
+    {
+        "code":"ms",
+        "name": "Mato Grosso do Sul",
+        "cities": [
+            {"name":"Campo Grande"},
+            {"name":"Dourados"},
+            {"name":"Três Lagoas"},
+            {"name":"Corumbá"},
+            {"name":"Ponta Porã"},
+            {"name":"Naviraí"},
+            {"name":"Nova Andradina"},
+            {"name":"Paranaíba"}
+        ]
+    },
+    {
+        "code":"mg",
+        "name": "Minas Gerais",
+        "cities": [
+            {"name":"Belo Horizonte"},
+            {"name":"Uberlândia"},
+            {"name":"Contagem"},
+            {"name":"Juiz de Fora"},
+            {"name":"Betim"},
+            {"name":"Montes Claros"},
+            {"name":"Ribeirão das Neves"},
+            {"name":"Uberaba"}
+        ]
+    },
+    {
+        "code":"pa",
+        "name": "Pará",
+        "cities": [
+            {"name":"Belém"},
+            {"name":"Ananindeua"},
+            {"name":"Santarém"},
+            {"name":"Marabá"},
+            {"name":"Castanhal"},
+            {"name":"Parauapebas"},
+            {"name":"Abaetetuba"},
+            {"name":"Cametá"}
+        ]
+    },
+    {
+        "code":"pb",
+        "name": "Paraíba",
+        "cities": [
+            {"name":"João Pessoa"},
+            {"name":"Campina Grande"},
+            {"name":"Santa Rita"},
+            {"name":"Patos"},
+            {"name":"Bayeux"},
+            {"name":"Sousa"},
+            {"name":"Cajazeiras"},
+            {"name":"Guarabira"}
+        ]
+    },
+    {
+        "code":"pr",
+        "name": "Paraná",
+        "cities": [
+            {"name":"Curitiba"},
+            {"name":"Londrina"},
+            {"name":"Maringá"},
+            {"name":"Ponta Grossa"},
+            {"name":"Cascavel"},
+            {"name":"São José dos Pinhais"},
+            {"name":"Foz do Iguaçu"},
+            {"name":"Colombo"}
+        ]
+    },
+    {
+        "code":"pe",
+        "name": "Pernambuco",
+        "cities": [
+            {"name":"Recife"},
+            {"name":"Jaboatão dos Guararapes"},
+            {"name":"Olinda"},
+            {"name":"Caruaru"},
+            {"name":"Petrolina"},
+            {"name":"Paulista"},
+            {"name":"Cabo de Santo Agostinho"},
+            {"name":"Garanhuns"}
+        ]
+    },
+    {
+        "code":"pi",
+        "name": "Piauí",
+        "cities": [
+            {"name":"Teresina"},
+            {"name":"Parnaíba"},
+            {"name":"Picos"},
+            {"name":"Floriano"},
+            {"name":"Piripiri"},
+            {"name":"Campo Maior"},
+            {"name":"Barras"},
+            {"name":"Altos"}
+        ]
+    },
+    {
+        "code":"rj",
+        "name": "Rio de Janeiro",
+        "cities": [
+            {"name":"Rio de Janeiro"},
+            {"name":"São Gonçalo"},
+            {"name":"Duque de Caxias"},
+            {"name":"Nova Iguaçu"},
+            {"name":"Niterói"},
+            {"name":"Campos dos Goytacazes"},
+            {"name":"Belford Roxo"},
+            {"name":"São João de Meriti"}
+        ]
+    },
+    {
+        "code":"rn",
+        "name": "Rio Grande do Norte",
+        "cities": [
+            {"name":"Natal"},
+            {"name":"Mossoró"},
+            {"name":"Parnamirim"},
+            {"name":"São Gonçalo do Amarante"},
+            {"name":"Macaíba"},
+            {"name":"Caicó"},
+            {"name":"Açu"},
+            {"name":"Ceará-Mirim"}
+        ]
+    },
+    {
+        "code":"rs",
+        "name": "Rio Grande do Sul",
+        "cities": [
+            {"name":"Porto Alegre"},
+            {"name":"Caxias do Sul"},
+            {"name":"Pelotas"},
+            {"name":"Canoas"},
+            {"name":"Santa Maria"},
+            {"name":"Gravataí"},
+            {"name":"Viamão"},
+            {"name":"Novo Hamburgo"}
+        ]
+    },
+    {
+        "code":"ro",
+        "name": "Rondônia",
+        "cities": [
+            {"name":"Porto Velho"},
+            {"name":"Ji-Paraná"},
+            {"name":"Ariquemes"},
+            {"name":"Vilhena"},
+            {"name":"Cacoal"},
+            {"name":"Rolim de Moura"},
+            {"name":"Guajará-Mirim"},
+            {"name":"Jaru"}
+        ]
+    },
+    {
+        "code":"rr",
+        "name": "Roraima",
+        "cities": [
+            {"name":"Boa Vista"},
+            {"name":"Rorainópolis"},
+            {"name":"Caracaraí"},
+            {"name":"Mucajaí"},
+            {"name":"Pacaraima"},
+            {"name":"Cantá"},
+            {"name":"Normandia"},
+            {"name":"Uiramutã"}
+        ]
+    },
+    {
+        "code":"sc",
+        "name": "Santa Catarina",
+        "cities": [
+            {"name":"Florianópolis"},
+            {"name":"Joinville"},
+            {"name":"Blumenau"},
+            {"name":"São José"},
+            {"name":"Chapecó"},
+            {"name":"Itajaí"},
+            {"name":"Criciúma"},
+            {"name":"Lages"}
+        ]
+    },
+    {
+        "code":"sp",
+        "name": "São Paulo",
+        "cities": [
+            {"name":"São Paulo"},
+            {"name":"Guarulhos"},
+            {"name":"Campinas"},
+            {"name":"São Bernardo do Campo"},
+            {"name":"São José dos Campos"},
+            {"name":"Santo André"},
+            {"name":"Ribeirão Preto"},
+            {"name":"Osasco"}
+        ]
+    },
+    {
+        "code":"se",
+        "name": "Sergipe",
+        "cities": [
+            {"name":"Aracaju"},
+            {"name":"Nossa Senhora do Socorro"},
+            {"name":"Lagarto"},
+            {"name":"Itabaiana"},
+            {"name":"Estância"},
+            {"name":"Tobias Barreto"},
+            {"name":"Simão Dias"},
+            {"name":"Itaporanga d'Ajuda"}
+        ]
+    },
+    {
+        "code":"to",
+        "name": "Tocantins",
+        "cities": [
+            {"name":"Palmas"},
+            {"name":"Araguaína"},
+            {"name":"Gurupi"},
+            {"name":"Porto Nacional"},
+            {"name":"Paraíso do Tocantins"},
+            {"name":"Colinas do Tocantins"},
+            {"name":"Guaraí"},
+            {"name":"Tocantinópolis"}
+        ]
+    }
+]

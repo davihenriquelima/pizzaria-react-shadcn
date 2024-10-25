@@ -2,10 +2,10 @@
 
 import { Product, Size } from "@/types/Product"
 import { Button } from "@/components/ui/button"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ToastAction } from "@/components/ui/toast";
 import { useToast } from "@/hooks/use-toast";
-import { useCartStore } from "../stores/cart-store";
+import { useCartStore } from "@/stores/cart-store";
 import { useEffect, useRef, useState } from "react";
 import { SizedProduct } from "@/types/Cart";
 

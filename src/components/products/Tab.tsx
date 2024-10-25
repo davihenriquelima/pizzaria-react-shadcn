@@ -1,8 +1,8 @@
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 import { getAllProducts } from "@/services/product"
 import { Product } from "@/types/Product";
-import { ProductEmpty } from "./Empty";
-import { ProductItem } from "./Item";
+import { ProductEmpty } from "@/components/products/Empty";
+import { ProductItem } from "@/components/products/Item";
 
 type Tab = {
     title:string,
